@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.main-page{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+}
+
+/* side line */
+.side-line{
+    background-color: royalblue;
+    height: 100%;
+    width: 15px;
+}
+/* side bar */
+.side-bar{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: royalblue;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle:hover{
+    background-color: darkblue;
+}
+.circle:active{
+    background-color: grey;
+}
+/* right panel */
+.right-panel{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.header-panel{
+    height: 75px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.empty-container{
+    padding-left: 170px;
+}
+.title-header{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.logo-container{
+    padding-right: 50px;
+}
+.tablet-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#img-tablet{
+    position: absolute;
+}
+#main-canvas{
+    position: absolute;
+}
+
